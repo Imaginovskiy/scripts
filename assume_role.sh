@@ -86,7 +86,6 @@ then
   exit 255
 fi
 
-export AWS_PROFILE="${AWS_PROFILE}"
 export AWS_SESSION_TOKEN="${session}"
 export AWS_SECRET_ACCESS_KEY="${secret}"
 export AWS_ACCESS_KEY_ID="${access}"
